@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Pastebin standalone",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Easy share your code.",
+    "description": "The description of the application"
+  },
+  "appShortname": {
+    "message": "Pastebin",
+    "description": "The description of the application"
+  }
+}
