@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.1",
+    "version": "0.0.5",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "short_name": "__MSG_appShortname__",
@@ -14,13 +14,13 @@
     "app": {
         "background": {
             "scripts": [
-                "scripts/chromereload.js",
                 "scripts/background.js"
             ]
         }
     },
-    "permissions" : [
+    "permissions": [
         "webview"
     ],
-    "minimum_chrome_version": "23"
+    "minimum_chrome_version": "23",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz4t3v3fVPPYxNOHajjHGQO14RYkOF/F2+3cn5BLBZeUY7a9wfnyGqR5TlsBUP9ChfZCh7CoLooPq8gS5Wm9TLyLtH9CpxCocJfsdFOHJ4CHloB5vDcqyqiUw6/2WkME8ZEcuZMxBleKw0a0jcSgjm2DBAselzmVdTeWEx/rxplq/G1A4vE/CXm1ZeY0/NPAaWDi/QvEyoK3DLWbYjbBQRNAIwT7+GWKk6pr8J8zsvCXiaZv68y+62kwBULtcnMYMH3ctB9r+dYVLL5FFBS0TZwElJT//9WGZKuNSEds+aiV5MxrDoX1Qx5xcQkj2YSu/wD/tC/RmCytYqoZQksHaCwIDAQAB"
 }
